@@ -1,10 +1,10 @@
 <div align="center">
   <img src="public/icon-128.png" alt="logo"/>
-  <h1>Gemini Voyager</h1>
-  <h3>Make Your Gemini Experience Truly Yours ✨</h3>
+  <h1>Gemini Voyager Lite</h1>
+  <h3>Essential Enhancements for Google Gemini ✨</h3>
   <p>
-    Navigate conversations with an elegant timeline, organize chats with folders, and build your own prompt library.<br>
-    <b>It's the missing power-up for Google Gemini.</b>
+    A lightweight version focusing on core features: Timeline Navigation, Quote Reply, Watermark Removal, and Formula Copy.<br>
+    <b>Simple. Fast. Effective.</b>
   </p>
   
   <p>
@@ -35,29 +35,26 @@
 
 ---
 
-## 👋 Why Gemini Voyager?
+## 👋 Why Gemini Voyager Lite?
 
-We love Gemini, but sometimes we wish it had just a *bit* more structure. 
+This is a streamlined version of Gemini Voyager, focused on the **4 most essential features** to enhance your Gemini experience without bloat.
 
-That's why we built **Gemini Voyager**. It's not just a tool; it's a companion that helps you keep your AI conversations organized, accessible, and productive. Whether you're a researcher juggling dozens of threads, a developer saving code snippets, or just someone who loves order, Voyager is designed for you.
+Perfect for users who want:
+- 🚀 **Fast** - Minimal resource usage
+- 🎯 **Focused** - Only what you need
+- 🔒 **Simple** - Easy to use and understand
 
 ---
 
 ## 📚 Table of Contents
 
-- [👋 Why Gemini Voyager?](#-why-gemini-voyager)
+- [👋 Why Gemini Voyager Lite?](#-why-gemini-voyager-lite)
 - [📚 Table of Contents](#-table-of-contents)
 - [✨ Features](#-features)
-  - [📍 Timeline Navigation](#-timeline-navigation)
-  - [📂 Folder Organization](#-folder-organization)
-  - [💡 Prompt Library](#-prompt-library)
+  - [🧭 Timeline Navigation](#-timeline-navigation)
   - [💬 Quote Reply](#-quote-reply)
+  - [🍌 NanoBanana Watermark Remover](#-nanobanana-watermark-remover)
   - [📐 Formula Copy](#-formula-copy)
-  - [🧜‍♀️ Mermaid Diagram Rendering](#️-mermaid-diagram-rendering)
-  - [🍌 NanoBanana Option](#-nanobanana-option)
-  - [🔬 Deep Research Export](#-deep-research-export)
-  - [💾 Chat Export](#-chat-export)
-  - [📏 Adjustable Chat Width](#-adjustable-chat-width)
 - [📥 Installation](#-installation)
   - [Option 1: Chrome Web Store (Easier)](#option-1-chrome-web-store-easier)
   - [Option 2: Manual Installation (Latest Features)](#option-2-manual-installation-latest-features)
@@ -73,106 +70,27 @@ That's why we built **Gemini Voyager**. It's not just a tool; it's a companion t
 
 ## ✨ Features
 
-<div align="center">
-  <img src="docs/public/assets/teaser.png" alt="teaser"/>
-</div>
+This lightweight version includes 4 essential features:
 
-### 📍 Timeline Navigation
+### 🧭 Timeline Navigation
 **Never get lost in a long conversation again.**
+
 Visual nodes let you see the structure of your chat at a glance.
 - **Jump instantly**: Click a node to scroll right to that message.
 - **Peek content**: Hover to see what was said without scrolling.
 - **Mark what matters**: Long-press to star important messages (synced across tabs!).
 - **Node Levels (Experimental)**: Right-click a node to set its level (1-3) or collapse sub-nodes. Perfect for organizing branched or hierarchical conversations.
 
-### 📂 Folder Organization
-**Keep your ideas sorted.**
-Stop digging through a messy history list. Drag and drop your chats into folders that make sense to you.
-- **Two-level hierarchy**: Folders and subfolders for deep organization.
-- **Easy management**: Double-click to rename, long-press to multi-select.
-- **Syncs everywhere**: Import/export your structure to keep your devices in sync.
-
-<details>
-<summary>👀 See it in action</summary>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <p><b>Gemini</b></p>
-      <img src="docs/public/assets/gemini-folders.png" alt="Gemini folders" style="max-width: 100%;"/>
-    </td>
-    <td align="center" width="50%">
-      <p><b>AI Studio</b></p>
-      <img src="docs/public/assets/aistudio-folders.png" alt="AI Studio folders" style="max-width: 100%;"/>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-### 💡 Prompt Library
-**Your personal prompt arsenal.**
-Don't rewrite the same instructions. Save your best prompts and use them anywhere.
-- **Tag & Search**: Find the right prompt in seconds.
-- **Universal Access**: Works on Gemini, AI Studio, and now **any website** you choose.
-
-<details>
-<summary>👀 View screenshot</summary>
-
-<div align="center">
-  <img src="docs/public/assets/gemini-prompt-manager.png" alt="Prompt manager" style="max-width: 100%;"/>
-</div>
-
-</details>
-
-</details>
-
 ### 💬 Quote Reply
 **Reply with context.**
+
 Select text in any message to see a floating quote button. Click it to insert the selected text as a quote into your reply box instantly.
 - **Context-aware**: Works for both user and model messages.
 - **Standard format**: Uses standard Markdown blockquote syntax (`> ...`).
 
-<details>
-<summary>👀 View screenshot</summary>
-
-<div align="center">
-  <img src="docs/public/assets/quote-reply.png" alt="Quote Reply" style="max-width: 100%;"/>
-</div>
-
-</details>
-
-### 📐 Formula Copy
-**For the math wizards.**
-See a beautiful LaTeX formula? One click copies the source code. No more manual re-typing.
-
-<details>
-<summary>👀 View screenshot</summary>
-
-<div align="center">
-  <img src="docs/public/assets/gemini-math-copy.png" alt="Formula copy" style="max-width: 100%;"/>
-</div>
-
-</details>
-
-### 🧜‍♀️ Mermaid Diagram Rendering
-**Visualize diagrams instantly.**
-When Gemini outputs Mermaid code (flowcharts, sequence diagrams, Gantt charts, etc.), Voyager automatically renders it as an interactive diagram.
-- **Toggle view**: Switch between rendered diagram and source code with one click.
-- **Fullscreen mode**: Click the diagram to open a fullscreen viewer with zoom and pan support.
-- **Auto-detection**: Supports all major Mermaid diagram types.
-
-<details>
-<summary>👀 View screenshot</summary>
-
-<div align="center">
-  <img src="docs/public/assets/mermaid-preview.png" alt="Mermaid diagram rendering" style="max-width: 100%;"/>
-</div>
-
-</details>
-
-### 🍌 NanoBanana Option
+### 🍌 NanoBanana Watermark Remover
 **Lossless watermark removal for Gemini images.**
+
 Automatically removes the visible "Gemini" watermark from AI-generated images (NanoBanana) using a reverse alpha blending algorithm.
 - **Zero quality loss**: Reconstructs original pixels for a perfectly clean image.
 - **Set and forget**: Just enable it once in settings and it works automatically.
@@ -182,81 +100,13 @@ Automatically removes the visible "Gemini" watermark from AI-generated images (N
 > [!NOTE]
 > This feature is powered by the [gemini-watermark-remover](https://github.com/journey-ad/gemini-watermark-remover) algorithm by [journey-ad](https://github.com/journey-ad), which is based on the [original C++ implementation](https://github.com/allenk/GeminiWatermarkTool) by [allenk](https://github.com/allenk). 🧡
 
-<details>
-<summary>👀 View screenshot</summary>
+### 📐 Formula Copy
+**For the math wizards.**
 
-<div align="center">
-  <img src="docs/public/assets/nanobanana.png" alt="NanoBanana" style="max-width: 100%;"/>
-</div>
+See a beautiful LaTeX formula? One click copies the source code. No more manual re-typing.
+- **One-click copy**: Hover over any formula to see the copy button
+- **Multiple formats**: Supports LaTeX, UnicodeMath, and plain text formats
 
-</details>
-
-### 🔬 Deep Research Export
-**Extract thinking content from Deep Research conversations.**
-One-click export to Markdown format preserving all thinking phases and research links. Click the share & export button in Deep Research conversations to download.
-
-### 💾 Chat Export
-**Your data, your format.**
-Take your conversations with you.
-- **Formats**: Structured JSON or print-friendly Markdown/PDF.
-- **Clean**: We strip out the UI noise so you get just the content.
-- **Complete**: Images are automatically packaged into an `assets/` folder.
-
-<details>
-<summary>👀 View export guide</summary>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <p><b>Step 1: Click the export icon</b></p>
-      <img src="docs/public/assets/gemini-export-guide-1.png" alt="Export guide step 1" style="max-width: 100%;"/>
-    </td>
-    <td align="center" width="50%">
-      <p><b>Step 2: Choose export format</b></p>
-      <img src="docs/public/assets/gemini-export-guide-2.png" alt="Export guide step 2" style="max-width: 100%;"/>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-### 📏 Adjustable Chat Width
-
-**Read comfortably.**
-Wide screen? Make use of it. Customize the chat container width (400px - 1400px) to suit your reading preference.
-
-> **Settings**: Click the extension icon for scroll mode, chat width, and timeline options.
-
-<details>
-<summary>View tutorial</summary>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <p><b>How to open settings</b></p>
-      <img src="docs/public/assets/gemini-open-settings-guide.png" alt="Open settings guide" style="max-width: 100%;"/>
-    </td>
-    <td align="center" width="50%">
-      <p><b>Chat width adjustment</b></p>
-      <img src="docs/public/assets/gemini-chatwidth.png" alt="Chat width adjustment" style="max-width: 100%;"/>
-    </td>
-  </tr>
-</table>
-
-</details>
-
-### 🫥 Input Collapse
-**More room to read.**
-The input area auto-collapses when empty. Click to expand and start typing.
-
-<details>
-<summary>👀 View screenshot</summary>
-
-<div align="center">
-  <img src="docs/public/assets/hide-input-area.png" alt="Input collapse" style="max-width: 100%;"/>
-</div>
-
-</details>
 
 ---
 
