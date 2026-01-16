@@ -1,7 +1,7 @@
 {
-  "name": "gemini-voyager",
+  "name": "gemini-voyager-lite",
   "version": "1.1.2",
-  "description": "Supercharge your Gemini experience with timeline navigation, folder organization, prompt library, and chat export.",
+  "description": "Lightweight Gemini enhancer with 4 essential features: Timeline Navigation, Quote Reply, Watermark Removal, and Formula Copy.",
   "license": "MIT",
   "author": "Jesse Zhang",
   "repository": {
